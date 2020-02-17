@@ -1,0 +1,205 @@
+                                            body {
+                                            width: 100%;
+                                            height: 100%;
+                                            margin: 0;
+                                            padding: 0;
+                                            background-color: blanchedalmond;
+                                        }
+                                        
+                                        .site {
+                                            font-weight: bolder;
+                                            font-size: 100px;
+                                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                                            margin-left: 15px;
+                                        }
+                                        
+                                        .lesliens {
+                                            display: flex;
+                                            justify-content: flex-end;
+                                        }
+                                        
+                                        .barre {
+                                            background-color: #485460;
+                                        }
+                                        
+                                        .liens {
+                                            text-decoration: none;
+                                            color: black;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .liens:hover {
+                                            font-weight: bolder;
+                                            font-size: 1.5em;
+                                        }
+                                        
+                                        .liens:active {
+                                            background-color: darkgray;
+                                            border-radius: 50%;
+                                        }
+                                        
+                                        .image {
+                                            width: 100px;
+                                            height: 75px;
+                                        }
+                                        
+                                        .div1 {
+                                            background-image: url(img/villa-1.jpg);
+                                            width: 100%;
+                                            height: 300px;
+                                            border: solid black 3px;
+                                            -webkit-animation-name: diapo1;
+                                            -webkit-animation-duration: 12s;
+                                            -webkit-animation-timing-function: linear;
+                                            -webkit-animation-iteration-count: infinite;
+                                            -webkit-animation-direction: normal;
+                                        }
+                                        
+                                        h1 {
+                                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                            font-weight: bold;
+                                            font-style: italic;
+                                            font-variant: small-caps;
+                                            text-align: center;
+                                            text-decoration: underline;
+                                            text-transform: capitalize;
+                                        }
+                                        
+                                        .un {
+                                            width: 400px;
+                                            height: 400px;
+                                            border: solid black 5px;
+                                            border-radius: 10px;
+                                            margin-top: 30px;
+                                        }
+                                        
+                                        .descp {
+                                            border: solid black 1px;
+                                            text-align: center;
+                                            height: 100px;
+                                            width: 40%;
+                                            margin: auto;
+                                            border-radius: 25px;
+                                            background-color: dimgrey;
+                                        }
+                                        
+                                        .prix {
+                                            background-color: chartreuse;
+                                            width: 20px;
+                                            height: 50px;
+                                            border: solid black 1px;
+                                            border-radius: 15px;
+                                            padding: 10px;
+                                            margin-left: 150px;
+                                        }
+                                        
+                                        .gallerie {
+                                            width: 63%;
+                                            height: auto;
+                                            margin: auto;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: space-between;
+                                            align-items: space-between;
+                                            margin-top: 50px;
+                                            margin-bottom: 100px;
+                                        }
+                                        
+                                        section {
+                                            display: flex;
+                                        }
+                                        
+                                        .rech {
+                                            display: flex;
+                                            flex-direction: column;
+                                            width: 13%;
+                                            margin-left: 10px;
+                                            margin-top: 100px;
+                                        }
+                                        
+                                        #Search {
+                                            outline-style: none;
+                                        }
+                                        
+                                        .submit {
+                                            width: 70px;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .tophe1 {
+                                            width: 200px;
+                                            height: 200px;
+                                            border-radius: 15%;
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .msn1 {
+                                            background-color: cadetblue;
+                                            border: solid black 1px;
+                                            border-radius: 5px;
+                                            text-decoration: none;
+                                            color: black;
+                                        }
+                                        
+                                        footer {
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .case {
+                                            width: 250px;
+                                            height: 30px;
+                                            border-radius: 25px;
+                                            margin: 10px;
+                                        }
+                                        
+                                        form {
+                                            width: 450px;
+                                            margin: auto;
+                                            margin-top: 250px;
+                                            background-color: cadetblue;
+                                        }
+                                        
+                                        .mbody {
+                                            width: 100%;
+                                            height: 100%;
+                                            background-image: url(img/house.jpg);
+                                        }
+                                        
+                                        @media screen and (max-width:900px) {
+                                            .descp {
+                                                height: 150px;
+                                            }
+                                        }
+                                        
+                                        @media screen and (max-width:550px) {
+                                            section {
+                                                display: flex;
+                                                flex-direction: column;
+                                            }
+                                            .descp {
+                                                height: 200px;
+                                            }
+                                            .site {
+                                                font-size: 50px;
+                                            }
+                                            form {
+                                                width: 50%;
+                                            }
+                                            .case {
+                                                width: 125px;
+                                            }
+                                            @media screen and (max-width:250px) {
+                                                .descp {
+                                                    height: 400px;
+                                                }
+                                                .site {
+                                                    font-size: 30px;
+                                                }
+                                                form {
+                                                    width: 30%;
+                                                }
+                                                .case {
+                                                    width: 85px;
+                                                }
+                                            }
